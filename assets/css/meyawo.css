@@ -11760,6 +11760,23 @@ pre .code {
   min-height: 65px;
 }
 
+.whatsapp-logo {
+  position: absolute;
+  display: none;
+  top: calc(100% +250px);
+  left: calc(100% +20px);
+}
+
+.whatsapp-logo img {
+  
+  margin-top: 0;
+  width: 80px;
+}
+
+.custom-navbar.affix .whatsapp-logo {
+  display: inline;
+}
+
 .custom-navbar.affix .nav .item .link {
   color: #6c757d;
 }
@@ -12296,3 +12313,12 @@ pre .code {
 .section-lg {
   padding: 100px 0 !important;
 }
+
+
+
+
+
+
+
+
+
